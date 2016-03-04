@@ -31,7 +31,7 @@ case $key in
 esac
 shift 
 done
-if [[ TAG -eq "" ]]; 
+if [[ TAG = "" ]]; 
 then
     echo "[![Github Release](https://img.shields.io/badge/Release-v${VERSION}--${TAG}-blue.svg)](${LINK})"
 else
